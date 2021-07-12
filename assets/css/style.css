@@ -1,0 +1,29 @@
+/*
+Template Name: 
+Author:
+version:
+
+-----------------------------------------------------------
+Table of Contents
+-----------------------------------------------------------
+1) Common CSS
+*/
+
+/* Common CSS Start */
+body{
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6, ul, ol, span, p{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+/* Common CSS End */
