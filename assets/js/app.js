@@ -4,5 +4,7 @@ $(function () {
         autoplay: 1000,
         fade: true,
         speed: 1000,
+        prevArrow: '<i class="slider_arrow slider_left_arrow fas fa-chevron-left"></i>',
+        nextArrow: '<i class="slider_arrow slider_right_arrow fas fa-chevron-right"></i>'
     });
 });

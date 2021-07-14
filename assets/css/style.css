@@ -103,31 +103,76 @@ a:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, .70);
+  background: rgba(0, 0, 0, 0.7);
   z-index: -1;
 }
 
-#banner .slider_item .slider_text{
-    z-index: 2;
+#banner .slider_item .slider_text {
+  z-index: 2;
 }
 
-#banner .slider_item .slider_text h2{
-    color: var(--hlt-color);
+#banner .slider_item .slider_text h2 {
+  color: var(--hlt-color);
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: 0;
 }
 
-#banner .slider_item .slider_text h3{
-    color: var(--white-color);
-    text-transform: uppercase;
+#banner .slider_item .slider_text h3 {
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0;
+  padding: 0 0 10px;
 }
 
-#banner .slider_item .slider_text p{
-    color: #f1f1f1;
+#banner .slider_item .slider_text p {
+  color: #f1f1f1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 0 48px 0;
 }
 
-#banner .slider_item .slider_text a{
-    color: var(--white-color);
-    text-decoration: none;
-    border: 1px solid var(--white-color);
-    text-transform: uppercase;
+#banner .slider_item .slider_text a {
+  color: var(--white-color);
+  text-decoration: none;
+  border: 1px solid var(--white-color);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  padding: 15px 20px;
+  border-radius: 4px;
 }
+
+#banner .slider_arrow{
+  position: absolute;
+  bottom: 20px;
+  z-index: 4;
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+  bottom: 5%;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#banner .slider_left_arrow{
+  right: 50%;
+  margin-right: 5px;
+}
+
+#banner .slider_right_arrow{
+  left: 50%;
+  margin-left: 5px;
+}
+
 /* Banner CSS End */
