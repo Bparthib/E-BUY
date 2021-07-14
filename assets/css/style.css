@@ -1,29 +1,133 @@
 /*
-Template Name: 
-Author:
-version:
+Template Name: E-BUY
+Author: Creative IT Institute
+version: 1
 
 -----------------------------------------------------------
 Table of Contents
 -----------------------------------------------------------
 1) Common CSS
+2) Header CSS
+3) Banner CSS
 */
 
 /* Common CSS Start */
-body{
-    font-family: sans-serif;
+:root {
+  --hlt-color: #de4644;
+  --white-color: #ffffff;
+  --grey-color: #444444;
+  --dark-color: #222222;
+  --text-color: #dddddd;
+
+  --opensans: "Open Sans", sans-serif;
+  --sacramento: "Sacramento", cursive;
 }
 
-h1,h2,h3,h4,h5,h6, ul, ol, span, p{
-    padding: 0;
-    margin: 0;
+body {
+  font-family: "Raleway", sans-serif;
 }
 
-ul{
-    list-style-type: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+span,
+p {
+  padding: 0;
+  margin: 0;
 }
 
-a:hover{
-    text-decoration: none;
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  text-decoration: none;
 }
 /* Common CSS End */
+
+/* Header CSS Start */
+#top_header {
+  background: var(--grey-color);
+}
+
+#top_header .top_left_header ul {
+  text-align: left;
+}
+
+#top_header .top_right_header ul {
+  text-align: right;
+}
+
+#top_header ul li {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--opensans);
+  line-height: 20px;
+  padding: 18px 15px 18px 0;
+}
+
+#top_header ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+#top_header ul li a i {
+  padding-right: 3px;
+}
+/* Header CSS End */
+
+/* Banner CSS Start */
+#banner {
+}
+
+#banner .slider_item {
+  position: relative;
+  height: 566px;
+  background-position: center !important;
+  background-size: cover !important;
+  z-index: 1;
+}
+
+#banner .slider_item::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .70);
+  z-index: -1;
+}
+
+#banner .slider_item .slider_text{
+    z-index: 2;
+}
+
+#banner .slider_item .slider_text h2{
+    color: var(--hlt-color);
+}
+
+#banner .slider_item .slider_text h3{
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+#banner .slider_item .slider_text p{
+    color: #f1f1f1;
+}
+
+#banner .slider_item .slider_text a{
+    color: var(--white-color);
+    text-decoration: none;
+    border: 1px solid var(--white-color);
+    text-transform: uppercase;
+}
+/* Banner CSS End */
