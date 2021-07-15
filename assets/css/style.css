@@ -48,6 +48,46 @@ ul {
 a:hover {
   text-decoration: none;
 }
+
+img{
+  width: 100%;
+}
+
+.form-control:focus{
+  box-shadow: none;
+}
+
+.section_title{
+  text-align: center;
+}
+
+.section_title h2{
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  color: var(--dark-color);
+  position: relative;
+  display: inline-block;
+}
+
+.section_title h2:before,
+.section_title h2:after{
+ position: absolute;
+ content: "";
+ height: 1px;
+ left: 0;
+ bottom: 0;
+ background: var(--hlt-color);
+}
+
+.section_title h2:before{
+  width: 50%;
+  margin-bottom: 2px;
+}
+
+.section_title h2:after{
+  width: 25%;
+}
 /* Common CSS End */
 
 /* Header CSS Start */
