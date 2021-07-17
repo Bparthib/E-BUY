@@ -100,6 +100,14 @@ img{
   line-height: 40px;
   cursor: pointer;
   text-align: center;
+  transition: all linear .3s;
+  z-index: 999;
+}
+
+.slider_arrow:hover{
+  color: var(--white-color) !important;
+  background: var(--hlt-color);
+  border: 1px solid var(--hlt-color) !important;
 }
 
 .slider_left_arrow{
@@ -148,9 +156,6 @@ img{
 /* Header CSS End */
 
 /* Banner CSS Start */
-#banner {
-}
-
 #banner .slider_item {
   position: relative;
   height: 566px;
@@ -222,11 +227,11 @@ img{
 /* Banner CSS End */
 
 /* Featured CSS Start */
-#featured .product_item_thum{
+.product_item_thum{
   position: relative;
 }
 
-#featured .product_item_overlay{
+.product_item_overlay{
   position: absolute;
   top: 0;
   right: 10px;
@@ -237,6 +242,10 @@ img{
 /* Featured CSS End */
 
 /* latest Product CSS Start */
+#testimonial .latest_product_slider{
+  position: relative;
+}
+
 #latest_product .slider_arrow{
   position: absolute;
   bottom: 20px;
@@ -246,3 +255,73 @@ img{
   border: 1px solid var(--dark-color);
 }
 /* latest Product CSS End */
+
+/* Testimonial CSS Start */
+#testimonial .testimonial_slider_container{
+  width: 100%;
+  background: url(../images/testimonial-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding: 100px 0;
+}
+
+#testimonial .testimonial_slider_container:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .70);
+  z-index: -1;
+}
+
+#testimonial .testimonial_slider_item .testimonial_img img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+#testimonial .testimonial_slider_item .testimonial_info h2{
+ color: var(--white-color);
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 22px;
+ letter-spacing: 0;
+ text-transform: capitalize;
+}
+
+#testimonial .testimonial_slider_item .testimonial_info h3{
+ color: var(--white-color);
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 17.6px;
+ letter-spacing: 0;
+ text-transform: capitalize;
+}
+
+#testimonial .testimonial_slider_item .testimonial_info p{
+ color: var(--text-color);
+ font-size: 14px;
+ line-height: 24px;
+ letter-spacing: 0;
+ font-family: var(--opensans);
+}
+
+#testimonial .testimonial_slider_item .testimonial_info h4{
+  color: var(--white-color);
+  font-size: 30px;
+ font-weight: ;
+ line-height: 33px;
+ letter-spacing: 0;
+ font-family: var(--sacramento);
+ text-align: right;
+ }
+
+#testimonial .slider_arrow{
+  position: absolute;
+  bottom: -70px;
+  /* z-index: 4; */
+}
+/* Testimonial CSS End */

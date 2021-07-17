@@ -18,4 +18,12 @@ $(function () {
         prevArrow: '<i class="slider_arrow slider_left_arrow fas fa-chevron-left"></i>',
         nextArrow: '<i class="slider_arrow slider_right_arrow fas fa-chevron-right"></i>'
     });
+    
+    $(".testimonial_slider_item").slick({
+        speed: 500,
+        slidesToShow: 2,
+        cssEase: 'linear',
+        prevArrow: '<i class="slider_arrow slider_left_arrow fas fa-chevron-left"></i>',
+        nextArrow: '<i class="slider_arrow slider_right_arrow fas fa-chevron-right"></i>'
+    });
 });
