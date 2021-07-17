@@ -240,14 +240,37 @@
                 <div class="featured_menu">
                     <ul>
                         <li data-filter="all">All</li>
-                        <li data-filter="1">Men</li>
-                        <li data-filter="2">Women</li>
-                        <li data-filter="3">Children</li>
-                        <li data-filter="4">Accesorries</li>
+                        <li data-filter="men">Men</li>
+                        <li data-filter="women">Women</li>
+                        <li data-filter="child">Children</li>
+                        <li data-filter="access">Accesorries</li>
                     </ul>
                 </div>
                 <div class="row featured_filter_container">
-                    <div class="product_item filtr-item col-md-3" data-category="1, 3, 4">
+                    <div class="product_item filtr-item col-md-3" data-category="men">
+                        <div class="product_item_thum">
+                            <img src="assets/images/featured1.jpg" alt="">
+                        </div>
+                        <div class="product_item_overlay">
+                            <ul>
+                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-random"></i></a></li>
+                                <li><a href="#"><i class="fas fa-shopping-basket"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product_item_info d-flex flex-wrap">
+                            <h6 class="w-75">Woolen T-shirt</h6>
+                            <p class="w-25">$ 99.00</p>
+                            <div class="product_item_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_item filtr-item col-md-3" data-category="women">
                         <div class="product_item_thum">
                             <img src="assets/images/featured1.jpg" alt="">
                         </div>
@@ -270,7 +293,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="product_item filtr-item col-md-3" data-category="3, 4, 1, 2">
+                    <div class="product_item filtr-item col-md-3" data-category="men, access">
                         <div class="product_item_thum">
                             <img src="assets/images/featured1.jpg" alt="">
                         </div>
@@ -293,7 +316,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="product_item filtr-item col-md-3" data-category="2, 1">
+                    <div class="product_item filtr-item col-md-3" data-category="women, child">
                         <div class="product_item_thum">
                             <img src="assets/images/featured1.jpg" alt="">
                         </div>
@@ -316,7 +339,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="product_item filtr-item col-md-3" data-category="2, 3">
+                    <div class="product_item filtr-item col-md-3" data-category="men">
                         <div class="product_item_thum">
                             <img src="assets/images/featured1.jpg" alt="">
                         </div>
@@ -339,7 +362,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="product_item filtr-item col-md-3" data-category="2, 3">
+                    <div class="product_item filtr-item col-md-3" data-category="Women, access">
                         <div class="product_item_thum">
                             <img src="assets/images/featured1.jpg" alt="">
                         </div>
@@ -362,7 +385,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="product_item filtr-item col-md-3" data-category="4, 3, 1">
+                    <div class="product_item filtr-item col-md-3" data-category="men">
                         <div class="product_item_thum">
                             <img src="assets/images/featured1.jpg" alt="">
                         </div>
@@ -385,30 +408,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="product_item filtr-item col-md-3" data-category="1, 4">
-                        <div class="product_item_thum">
-                            <img src="assets/images/featured1.jpg" alt="">
-                        </div>
-                        <div class="product_item_info d-flex flex-wrap">
-                            <h6 class="w-75">Woolen T-shirt</h6>
-                            <p class="w-25">$ 99.00</p>
-                            <div class="product_item_rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half"></i>
-                            </div>
-                        </div>
-                        <div class="product_item_overlay">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fas fa-random"></i></a></li>
-                                <li><a href="#"><i class="fas fa-shopping-basket"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="product_item filtr-item col-md-3" data-category="2, 4">
+                    <div class="product_item filtr-item col-md-3" data-category="women, child">
                         <div class="product_item_thum">
                             <img src="assets/images/featured1.jpg" alt="">
                         </div>
@@ -479,7 +479,175 @@
     </section>
     <!-- Offer Part End -->
     
-    <!-- Offer Part End -->
+    <!-- Latest Product Part Start -->
+    <section id="latest_product">
+        <div class="container">
+            <div class="latest_product_slider">
+                <div class="product_item filtr-item p-3">
+                    <div class="product_item_thum">
+                        <img src="assets/images/featured1.jpg" alt="">
+                    </div>
+                    <div class="product_item_info d-flex flex-wrap d-flex flex-wrap">
+                        <h6 class="w-75">Woolen T-shirt</h6>
+                        <p class="w-25">$ 99.00</p>
+                        <div class="product_item_rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="product_item_overlay">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fas fa-random"></i></a></li>
+                            <li><a href="#"><i class="fas fa-shopping-basket"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product_item filtr-item p-3">
+                    <div class="product_item_thum">
+                        <img src="assets/images/featured1.jpg" alt="">
+                    </div>
+                    <div class="product_item_info d-flex flex-wrap d-flex flex-wrap">
+                        <h6 class="w-75">Woolen T-shirt</h6>
+                        <p class="w-25">$ 99.00</p>
+                        <div class="product_item_rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="product_item_overlay">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fas fa-random"></i></a></li>
+                            <li><a href="#"><i class="fas fa-shopping-basket"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product_item filtr-item p-3">
+                    <div class="product_item_thum">
+                        <img src="assets/images/featured1.jpg" alt="">
+                    </div>
+                    <div class="product_item_info d-flex flex-wrap d-flex flex-wrap">
+                        <h6 class="w-75">Woolen T-shirt</h6>
+                        <p class="w-25">$ 99.00</p>
+                        <div class="product_item_rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="product_item_overlay">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fas fa-random"></i></a></li>
+                            <li><a href="#"><i class="fas fa-shopping-basket"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product_item filtr-item p-3">
+                    <div class="product_item_thum">
+                        <img src="assets/images/featured1.jpg" alt="">
+                    </div>
+                    <div class="product_item_info d-flex flex-wrap d-flex flex-wrap">
+                        <h6 class="w-75">Woolen T-shirt</h6>
+                        <p class="w-25">$ 99.00</p>
+                        <div class="product_item_rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="product_item_overlay">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fas fa-random"></i></a></li>
+                            <li><a href="#"><i class="fas fa-shopping-basket"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product_item filtr-item p-3">
+                    <div class="product_item_thum">
+                        <img src="assets/images/featured1.jpg" alt="">
+                    </div>
+                    <div class="product_item_info d-flex flex-wrap d-flex flex-wrap">
+                        <h6 class="w-75">Woolen T-shirt</h6>
+                        <p class="w-25">$ 99.00</p>
+                        <div class="product_item_rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="product_item_overlay">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fas fa-random"></i></a></li>
+                            <li><a href="#"><i class="fas fa-shopping-basket"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product_item filtr-item p-3">
+                    <div class="product_item_thum">
+                        <img src="assets/images/featured1.jpg" alt="">
+                    </div>
+                    <div class="product_item_info d-flex flex-wrap d-flex flex-wrap">
+                        <h6 class="w-75">Woolen T-shirt</h6>
+                        <p class="w-25">$ 99.00</p>
+                        <div class="product_item_rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="product_item_overlay">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fas fa-random"></i></a></li>
+                            <li><a href="#"><i class="fas fa-shopping-basket"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product_item filtr-item p-3">
+                    <div class="product_item_thum">
+                        <img src="assets/images/featured1.jpg" alt="">
+                    </div>
+                    <div class="product_item_info d-flex flex-wrap d-flex flex-wrap">
+                        <h6 class="w-75">Woolen T-shirt</h6>
+                        <p class="w-25">$ 99.00</p>
+                        <div class="product_item_rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="product_item_overlay">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                            <li><a href="#"><i class="fas fa-random"></i></a></li>
+                            <li><a href="#"><i class="fas fa-shopping-basket"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Product Part End -->
 
     <!-- if javascript doesn't work -->
     <noscript>You have to enable javascript to view this site</noscript>

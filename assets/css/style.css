@@ -9,6 +9,8 @@ Table of Contents
 1) Common CSS
 2) Header CSS
 3) Banner CSS
+4) Featured CSS
+5  Offer CSS 
 */
 
 /* Common CSS Start */
@@ -87,6 +89,27 @@ img{
 
 .section_title h2:after{
   width: 25%;
+}
+
+.slider_arrow{
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.slider_left_arrow{
+  right: 50%;
+  margin-right: 5px;
+}
+
+.slider_right_arrow{
+  left: 50%;
+  margin-left: 5px;
 }
 /* Common CSS End */
 
@@ -194,25 +217,32 @@ img{
   position: absolute;
   bottom: 20px;
   z-index: 4;
-  color: var(--white-color);
-  border: 1px solid var(--white-color);
   bottom: 5%;
-  font-size: 20px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  cursor: pointer;
-  text-align: center;
 }
-
-#banner .slider_left_arrow{
-  right: 50%;
-  margin-right: 5px;
-}
-
-#banner .slider_right_arrow{
-  left: 50%;
-  margin-left: 5px;
-}
-
 /* Banner CSS End */
+
+/* Featured CSS Start */
+#featured .product_item_thum{
+  position: relative;
+}
+
+#featured .product_item_overlay{
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  width: 100px;
+  background: rgba(0, 0, 0, 0.7);
+}
+/* Featured CSS End */
+
+/* latest Product CSS Start */
+#latest_product .slider_arrow{
+  position: absolute;
+  bottom: 20px;
+  z-index: 4;
+  bottom: 5%;
+  color: var(--dark-color);
+  border: 1px solid var(--dark-color);
+}
+/* latest Product CSS End */
