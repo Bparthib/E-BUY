@@ -51,19 +51,19 @@ a:hover {
   text-decoration: none;
 }
 
-img{
+img {
   width: 100%;
 }
 
-.form-control:focus{
+.form-control:focus {
   box-shadow: none;
 }
 
-.section_title{
+.section_title {
   text-align: center;
 }
 
-.section_title h2{
+.section_title h2 {
   font-size: 40px;
   font-weight: 500;
   line-height: 44px;
@@ -73,25 +73,25 @@ img{
 }
 
 .section_title h2:before,
-.section_title h2:after{
- position: absolute;
- content: "";
- height: 1px;
- left: 0;
- bottom: 0;
- background: var(--hlt-color);
+.section_title h2:after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  left: 0;
+  bottom: 0;
+  background: var(--hlt-color);
 }
 
-.section_title h2:before{
+.section_title h2:before {
   width: 50%;
   margin-bottom: 2px;
 }
 
-.section_title h2:after{
+.section_title h2:after {
   width: 25%;
 }
 
-.slider_arrow{
+.slider_arrow {
   color: var(--white-color);
   border: 1px solid var(--white-color);
   font-size: 20px;
@@ -100,22 +100,22 @@ img{
   line-height: 40px;
   cursor: pointer;
   text-align: center;
-  transition: all linear .3s;
+  transition: all linear 0.3s;
   z-index: 999;
 }
 
-.slider_arrow:hover{
+.slider_arrow:hover {
   color: var(--white-color) !important;
   background: var(--hlt-color);
   border: 1px solid var(--hlt-color) !important;
 }
 
-.slider_left_arrow{
+.slider_left_arrow {
   right: 50%;
   margin-right: 5px;
 }
 
-.slider_right_arrow{
+.slider_right_arrow {
   left: 50%;
   margin-left: 5px;
 }
@@ -218,7 +218,7 @@ img{
   border-radius: 4px;
 }
 
-#banner .slider_arrow{
+#banner .slider_arrow {
   position: absolute;
   bottom: 20px;
   z-index: 4;
@@ -227,11 +227,11 @@ img{
 /* Banner CSS End */
 
 /* Featured CSS Start */
-.product_item_thum{
+.product_item_thum {
   position: relative;
 }
 
-.product_item_overlay{
+.product_item_overlay {
   position: absolute;
   top: 0;
   right: 10px;
@@ -242,11 +242,11 @@ img{
 /* Featured CSS End */
 
 /* latest Product CSS Start */
-#testimonial .latest_product_slider{
+#testimonial .latest_product_slider {
   position: relative;
 }
 
-#latest_product .slider_arrow{
+#latest_product .slider_arrow {
   position: absolute;
   bottom: 20px;
   z-index: 4;
@@ -257,71 +257,233 @@ img{
 /* latest Product CSS End */
 
 /* Testimonial CSS Start */
-#testimonial .testimonial_slider_container{
+#testimonial .testimonial_slider_container {
   width: 100%;
   background: url(../images/testimonial-bg.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
   z-index: 1;
-  padding: 100px 0;
+  padding: 30px 0 90px;
 }
 
-#testimonial .testimonial_slider_container:before{
+#testimonial .testimonial_slider_container:before {
   position: absolute;
   content: "";
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, .70);
+  background: rgba(0, 0, 0, 0.8);
   z-index: -1;
 }
 
-#testimonial .testimonial_slider_item .testimonial_img img{
+#testimonial .testimonial_slider_item .testimonial_img img {
   width: 100%;
   border-radius: 50%;
 }
 
-#testimonial .testimonial_slider_item .testimonial_info h2{
- color: var(--white-color);
- font-size: 20px;
- font-weight: 500;
- line-height: 22px;
- letter-spacing: 0;
- text-transform: capitalize;
+#testimonial .testimonial_slider_item .testimonial_info h2 {
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-transform: capitalize;
 }
 
-#testimonial .testimonial_slider_item .testimonial_info h3{
- color: var(--white-color);
- font-size: 16px;
- font-weight: 500;
- line-height: 17.6px;
- letter-spacing: 0;
- text-transform: capitalize;
+#testimonial .testimonial_slider_item .testimonial_info h3 {
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17.6px;
+  letter-spacing: 0;
+  text-transform: capitalize;
 }
 
-#testimonial .testimonial_slider_item .testimonial_info p{
- color: var(--text-color);
- font-size: 14px;
- line-height: 24px;
- letter-spacing: 0;
- font-family: var(--opensans);
+#testimonial .testimonial_slider_item .testimonial_info p {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-family: var(--opensans);
 }
 
-#testimonial .testimonial_slider_item .testimonial_info h4{
+#testimonial .testimonial_slider_item .testimonial_info h4 {
   color: var(--white-color);
   font-size: 30px;
- font-weight: ;
- line-height: 33px;
- letter-spacing: 0;
- font-family: var(--sacramento);
- text-align: right;
- }
+  line-height: 33px;
+  letter-spacing: 0;
+  font-family: var(--sacramento);
+  text-align: right;
+}
 
-#testimonial .slider_arrow{
+#testimonial .slider_arrow {
   position: absolute;
-  bottom: -70px;
-  /* z-index: 4; */
+  bottom: -35px;
 }
 /* Testimonial CSS End */
+
+/* Blog CSS Start */
+#blog {
+  padding: 60px 0;
+}
+
+#blog .blog_item h3{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  color: var(--dark-color);
+  padding: 30px 0 10px;
+}
+
+#blog .blog_item p{
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--grey-color);
+  font-family: var(--opensans);
+  padding: 12px 0;
+}
+
+#blog .blog_item a{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.9px;
+  color: var(--dark-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all linear .3s;
+}
+
+#blog .blog_item a:hover{
+  color: var(--hlt-color);
+}
+
+/* Blog CSS End */
+
+/* Contact CSS Start */
+#contact {
+  background: #353535;
+  padding: 50px 0;
+}
+
+#contact .logo_text a {
+  display: inline-block;
+}
+
+#contact .logo_text p {
+  font-size: 13px;
+  font-weight: ;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: var(--text-color);
+  padding: 30px 0 10px;
+  font-family: var(--opensans);
+}
+
+
+#contact .contact_us{
+  align-items: center;
+}
+
+#contact h2 {
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 17.6px;
+  line-height: 0;
+  padding: 25px 0 45px;
+}
+
+#contact .contact_us p {
+  color: var(--text-color);
+  padding: 12px 0;
+}
+
+#contact .contact_us p i{
+  font-size: 13px;
+  padding-right: 10px;
+}
+
+#contact .contact_us p a{
+  color: var(--text-color);
+  font-size: 13px;
+  font-weight: 18.6px;
+  line-height: 0;
+  text-decoration: none;
+  font-family: var(--opensans);
+  transition: all linear .5s;
+}
+
+#contact .contact_us p a:hover{
+  padding-left: 5px;
+  color: var(--hlt-color);
+}
+
+#contact .myAccount a{
+  display: block;
+  color: var(--text-color);
+  font-size: 13px;
+  font-weight: 24px;
+  line-height: 0;
+  text-decoration: none;
+  font-family: var(--opensans);
+  transition: all linear .5s;
+  padding: 20px 0 17px;
+}
+
+#contact .myAccount a:hover{
+  padding-left: 5px;
+  color: var(--hlt-color);
+}
+
+#contact .signUp .btn{
+  background: var(--hlt-color);
+  border-radius: 0;
+  font-size: 16px;
+  line-height: 22.6px;
+  letter-spacing: 0;
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
+#contact .signUp a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+#contact .signUp a i{
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 28px;
+  color: var(--dark-color);
+  background: var(--white-color);
+}
+/* Contact CSS End */
+
+/* Footer CSS Start */
+#footer{
+  background: #555555;
+  padding: 20px 0;
+}
+
+#footer .footer_text p{
+  color: var(--white-color);
+  font-size: 14px;
+  font-family: var(--opensans);
+}
+
+#footer .footer_text p a{
+  text-decoration: none;
+  color: var(--hlt-color);
+}
+
+#footer img{
+  width: 40px;
+  height: 25px;
+}
+/* Footer CSS End */
