@@ -22,6 +22,12 @@ $(function () {
       '<i class="slider_arrow slider_left_arrow fas fa-chevron-left"></i>',
     nextArrow:
       '<i class="slider_arrow slider_right_arrow fas fa-chevron-right"></i>',
+    responsive: [{
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+      }
+    }]
   });
 
   //Testimonial Slider Js
