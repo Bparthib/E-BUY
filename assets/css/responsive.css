@@ -1,0 +1,37 @@
+/* xxl-device Start*/
+@media (min-width: 1400px){}
+
+/* xl-device Start*/
+@media (min-width: 1200px) and (max-width: 1399.98px){}
+
+/* lg-device Start*/
+@media (min-width: 992px) and (max-width: 1199.98px){}
+
+/* md-device Start*/
+@media (min-width: 768px) and (max-width: 991.98px){}
+
+/* sml-device Start*/
+@media (min-width: 576px) and (max-width: 767.98px){}
+
+/* xsml-device Start*/
+@media (max-width: 575.98px){}
+
+@media (max-width: 991.98px){
+    /* Navbar Responsive CSS Start */
+    #navbar .navbar-brand img {
+        width: 80%;
+    }
+
+    .mobile_menu ul li {
+        display: inline-block;
+    }
+    /* Navbar Responsive CSS End */
+
+    /* Banner Responsive CSS Start */
+
+}
+
+
+
+
+
