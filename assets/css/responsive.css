@@ -1,66 +1,181 @@
 /* xxl-device Start*/
-@media (min-width: 1400px){}
+@media (min-width: 1400px) {
+}
 
 /* xl-device Start*/
-@media (min-width: 1200px) and (max-width: 1399.98px){
-    /* Offer Responsive CSS Start */
-    #offer .offer_img{
-        margin-left: -30px;
-      }
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* Offer Responsive CSS Start */
+  #offer .offer_img {
+    margin-left: -30px;
+  }
 }
 
 /* lg-device Start*/
-@media (min-width: 992px) and (max-width: 1199.98px){
-    .product_item_overlay ul {
-        padding-top: 30px;
-      }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .product_item_overlay ul {
+    padding-top: 30px;
+  }
 
-    /* Offer Responsive CSS Start */
-    #offer .offer_img{
-        margin-left: -15px;
-      }
+  /* Offer Responsive CSS Start */
+  #offer .offer_img {
+    margin-left: -15px;
+  }
 }
 
 /* md-device Start*/
-@media (min-width: 768px) and (max-width: 991.98px){}
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
 
 /* sml-device Start*/
-@media (min-width: 576px) and (max-width: 767.98px){
-
+@media (min-width: 576px) and (max-width: 767.98px) {
 }
 
 /* xsml-device Start*/
-@media (max-width: 575.98px){
-    /* Banner Responsive CSS Start */
-    #banner .slider_item{
-        text-align: center;
-    }
-    /* Banner Responsive CSS End */
+@media (max-width: 575.98px) {
+  /* Banner Responsive CSS Start */
+  #banner .slider_item {
+    text-align: center;
+  }
+
+  /* Offer Responsive CSS Start */
+  #offer .offer_info h3{
+    font-size: 16px;
+  }
+  
+  #offer .offer_info h2{
+    font-size: 30px;
+  }
+  
+  #offer .offer_info p{
+    font-size: 13px;
+  }
+
+  #offer .offer_info .offer_count_down .count_down_item{
+    width: 60px;
+    height: 60px;
+  }
+
+  #offer .offer_info .offer_count_down .count_down_item span{
+    font-size: 15px;
+  }
+
 }
 
-@media (max-width: 991.98px){
-    /* Navbar Responsive CSS Start */
-    #navbar .navbar-brand img {
-        width: 80%;
-    }
+@media (max-width: 1199.98px) {
+  /* Offer Responsive CSS Start */
+  #contact .signUp a i {
+    margin-right: 5px;
+  }
 
-    .mobile_menu ul li {
-        display: inline-block;
-    }
+  /* Offer Responsive CSS Start */
+  #offer .offer_info h2{
+    font-size: 25px;
+  }
+}
 
-    /* Banner Responsive CSS Start */
-    #banner .slider_item{
-        height: 466px;
-    }
+@media (max-width: 991.98px) {
+  /* Navbar Responsive CSS Start */
+  #navbar .navbar-brand img {
+    width: 80%;
+  }
 
-    /* Offer Responsive CSS Start */
-    #offer .offer_img{
-        margin-left: 0px;
-      }
+  .mobile_menu ul li {
+    display: inline-block;
+  }
+
+  /* Banner Responsive CSS Start */
+  #banner .slider_item {
+    height: 466px;
+  }
+
+  /* Offer Responsive CSS Start */
+  #offer .offer_img {
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+
+  #offer .offer_info h2{
+    font-size: 25px;
+  }
+
+  /* Contact Us Responsive CSS Start */
+  #contact .logo_text img {
+    width: 90%;
+  }
+
+  #contact p{
+    padding: 15px 0 5px;
+  }
+  
+  #contact .contact_us p{
+    padding: 8px 0;
+  }
+
+  #contact h2{
+    font-size: 14px;
+    padding: 20px 0 10px;
+  }
+
+  #contact .signUp a i {
+    margin-right: 0;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* Support Responsive CSS Start */
+  #support .support_item {
+    border: none;
+  }
+
+  #featured .featured_filter .featured_filter_container{
+      margin: 0 auto;
+  }
+
+  /* Newest Responsive CSS Start */
+  #newest .newest_item {
+    margin: 15px 0;
+  }
+
+  /* Footer Responsive CSS Start */
+
+  footer{
+      text-align: center;
+  }
+
 
 }
 
+@media (max-width: 419.98px) {
+  /* Section Title Responsive CSS Start */
+  .section_title h2 {
+    font-size: 30px;
+  }
 
+  /* Offer Responsive CSS Start */
+  #offer .offer_info h2{
+    font-size: 20px;
+  }
+}
 
+@media (max-width: 305.98px) {
+  /* Section Title Responsive CSS Start */
+  .section_title h2 {
+    font-size: 25px;
+  }
+}
 
+@media (max-width: 280.98px) {
+  /* Section Title Responsive CSS Start */
+  .section_title h2 {
+    font-size: 20px;
+  }
 
+  /* Offer Responsive CSS Start */
+  #offer .offer_info h2{
+    font-size: 16px;
+  }
+}

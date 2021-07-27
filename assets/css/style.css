@@ -480,7 +480,6 @@ img {
   bottom: 0;
   width: 0px;
   background: rgba(0, 0, 0, 0.8);
-  /* padding-top: 55px; */
   transition: all linear 0.3s;
   overflow: hidden;
   opacity: 0;
@@ -489,13 +488,17 @@ img {
 
 .product_item_overlay ul {
   text-align: center;
-  padding-top: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .product_item_overlay li {
   display: block;
   width: 100%;
   padding-bottom: 34px;
+  
 }
 
 .product_item_overlay li a i {
@@ -641,6 +644,10 @@ img {
   border-radius: 50%;
 }
 
+#testimonial .testimonial_slider_item .testimonial_info{
+  padding-left: 15px; 
+}
+
 #testimonial .testimonial_slider_item .testimonial_info h2 {
   color: var(--white-color);
   font-size: 20px;
@@ -657,6 +664,7 @@ img {
   line-height: 17.6px;
   letter-spacing: 0;
   text-transform: capitalize;
+  padding-top: 5px;
 }
 
 #testimonial .testimonial_slider_item .testimonial_info p {
@@ -665,6 +673,7 @@ img {
   line-height: 24px;
   letter-spacing: 0;
   font-family: var(--opensans);
+  padding: 15px 0;
 }
 
 #testimonial .testimonial_slider_item .testimonial_info h4 {
@@ -796,7 +805,7 @@ img {
   display: inline-block;
 }
 
-#contact .logo_text p {
+#contact p {
   font-size: 13px;
   font-weight: ;
   line-height: 24px;
@@ -816,11 +825,10 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 17.6px;
-  padding: 20px 0 35px;
+  padding: 20px 0 30px;
 }
 
 #contact .contact_us p {
-  color: var(--text-color);
   padding: 12px 0;
 }
 

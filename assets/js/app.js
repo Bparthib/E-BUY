@@ -9,6 +9,14 @@ $(function () {
       '<i class="slider_arrow slider_left_arrow fas fa-chevron-left"></i>',
     nextArrow:
       '<i class="slider_arrow slider_right_arrow fas fa-chevron-right"></i>',
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          arrows: false,
+        },
+      },
+    ],
   });
 
   //Featured Filterizr Js
@@ -22,12 +30,21 @@ $(function () {
       '<i class="slider_arrow slider_left_arrow fas fa-chevron-left"></i>',
     nextArrow:
       '<i class="slider_arrow slider_right_arrow fas fa-chevron-right"></i>',
-    responsive: [{
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 3,
-      }
-    }]
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 
   //Testimonial Slider Js
@@ -38,6 +55,22 @@ $(function () {
       '<i class="slider_arrow slider_left_arrow fas fa-chevron-left"></i>',
     nextArrow:
       '<i class="slider_arrow slider_right_arrow fas fa-chevron-right"></i>',
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          autoplay: 1000,
+          arrows: false,
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 
   //Countdown Js
