@@ -258,6 +258,46 @@ img {
   line-height: 20px;
 }
 
+.mobile_menu ul li{
+  margin: 0 5px;
+}
+
+.mobile_menu ul li a{
+  text-decoration: none;
+  color: var(--grey-color);
+}
+
+.mobile_menu ul li a i{
+  margin: 0 5px;
+}
+
+.mbl_input_box{
+  position: relative;
+}
+
+.mbl_input_box input{
+  height: 30px;
+}
+
+.mbl_input_box button{
+  position: absolute;
+  right: 0;
+  background: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: none;
+  transition: all linear .3s;
+}
+
+.mbl_input_box button:hover{
+  color: var(--hlt-color);
+}
+
+.mbl_cart_icon a{
+  color: var(--hlt-color) !important;
+}
+
 /* Header CSS End */
 
 /* Banner CSS Start */
@@ -497,7 +537,7 @@ img {
 .product_item_overlay li {
   display: block;
   width: 100%;
-  padding-bottom: 34px;
+  padding: 20px 0;
   
 }
 
