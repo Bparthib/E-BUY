@@ -74,7 +74,7 @@ $(function () {
   });
 
   //Countdown Js
-  $(".count_down").countdown("2021/8/25", function (event) {
+  $(".count_down").countdown("2021/10/25", function (event) {
     var $this = $(this).html(
       event.strftime(
         "" +
